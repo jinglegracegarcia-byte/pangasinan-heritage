@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pangasinan-heritage/static/css/main.3518b713.css",
+    "main.js": "/pangasinan-heritage/static/js/main.512bc18b.js",
+    "static/media/balungaohotspring.jpg": "/pangasinan-heritage/static/media/balungaohotspring.2d42b3d97e8cb4fb474b.jpg",
+    "static/media/logo.png": "/pangasinan-heritage/static/media/logo.45876f91748c9ff1919d.png",
+    "static/media/hundred-islands.jpg": "/pangasinan-heritage/static/media/hundred-islands.e0b9af86ae08649df0ec.jpg",
+    "static/media/bolinao-lighthouse.jpg": "/pangasinan-heritage/static/media/bolinao-lighthouse.1a108fffc4985a044a1e.jpg",
+    "index.html": "/pangasinan-heritage/index.html",
+    "main.3518b713.css.map": "/pangasinan-heritage/static/css/main.3518b713.css.map",
+    "main.512bc18b.js.map": "/pangasinan-heritage/static/js/main.512bc18b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3518b713.css",
+    "static/js/main.512bc18b.js"
+  ]
+}
