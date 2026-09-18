@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Pangasinan Heritage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Student Name:** JINGLE GRACE GARCIA
 
-## Available Scripts
+**Selected Framework:** REACT
+
+**Live Website:** https://jinglegracegarcia-byte.github.io/pangasinan-heritage
+
+---
+
+## About
+
+A React web application showcasing heritage sites across Pangasinan —
+including the Hundred Islands, Bolinao Lighthouse, and Balungao Hot
+Spring — built using Brad Frost's Atomic Design methodology (atoms,
+molecules, and organisms).
+
+## Features
+
+- Responsive navbar with a mobile dropdown menu
+- Live search filtering by site name or location
+- "Load More" button to reveal additional heritage sites
+- About and Contact sections
+
+## Getting Started
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all project dependencies. Run this first after cloning.
+
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder, ready for static
+deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds and publishes the app to GitHub Pages.
 
-### `npm run eject`
+## Project Structure (Atomic Design)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+  components/
+    atoms/       Button, TextInput, SearchIcon
+    molecules/   SearchBar
+  App.jsx        Main application component
+  App.css        Component styling
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/) — UI library
+- [Create React App](https://github.com/facebook/create-react-app) — build tooling
+- Plain CSS — styling
