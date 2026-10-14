@@ -45,18 +45,3 @@ deployment.
 Builds and publishes the app to GitHub Pages.
 
 ## Project Structure (Atomic Design)
-
-```
-src/
-  components/
-    atoms/       Button, TextInput, SearchIcon
-    molecules/   SearchBar
-  App.jsx        Main application component
-  App.css        Component styling
-```
-
-## Built With
-
-- [React](https://reactjs.org/) — UI library
-- [Create React App](https://github.com/facebook/create-react-app) — build tooling
-- Plain CSS — styling
